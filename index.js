@@ -35,42 +35,42 @@ let quiz = await inquirer.prompt([
 let score = 0;
 switch (quiz.question_1) {
     case "A superset of JavaScript that adds static typing":
-        console.log("1.✔️ ");
+        console.log("1.Right ");
         ++score;
         break;
     default:
-        console.log("1.❌");
+        console.log("1.Wrong");
 }
 switch (quiz.question_2) {
     case "let age: number = 25":
-        console.log("2.✔️ ");
+        console.log("2.Right ");
         ++score;
         break;
     default:
-        console.log("2.❌");
+        console.log("2.Wrong");
 }
 switch (quiz.question_3) {
     case "A way to define the shape of an object":
-        console.log("3.✔️ ");
+        console.log("3.Right ");
         ++score;
         break;
     default:
-        console.log("3.❌");
+        console.log("3.Wrong");
 }
 switch (quiz.question_4) {
     case "function add(a: number, b: number): number { return a + b; }":
-        console.log("4.✔️ ");
+        console.log("4.Right ");
         ++score;
         break;
     default:
-        console.log("4.❌");
+        console.log("4.Wrong");
 }
 switch (quiz.question_5) {
     case "To define a function":
-        console.log("5.✔️ ");
+        console.log("5.Right ");
         ++score;
         break;
     default:
-        console.log("5.❌");
+        console.log("5.Wrong");
 }
 console.log(`score ${score}`);
